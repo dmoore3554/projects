@@ -44,7 +44,7 @@ def game():
     game_board = [[" ", " ", " "],[" ", " ", " "],[" ", " ", " "]]
     turn_count = 1
     game_over = False
-    while not game_over:
+    while game_over is not True:
         if turn_count >= 10:
             print("It's a tie!")
             print_game_board(game_board)
