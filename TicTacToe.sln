@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c#", "c#", "{30878960-5E3C-48A8-BA4E-99DD22CDB080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "c#\TicTacToe\TicTacToe.csproj", "{76F45BC1-D8C5-4E85-9CBF-ADD3D420DFCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76F45BC1-D8C5-4E85-9CBF-ADD3D420DFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F45BC1-D8C5-4E85-9CBF-ADD3D420DFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F45BC1-D8C5-4E85-9CBF-ADD3D420DFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F45BC1-D8C5-4E85-9CBF-ADD3D420DFCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76F45BC1-D8C5-4E85-9CBF-ADD3D420DFCD} = {30878960-5E3C-48A8-BA4E-99DD22CDB080}
+	EndGlobalSection
+EndGlobal
