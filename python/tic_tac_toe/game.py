@@ -1,4 +1,11 @@
+"""
+A 2 player game of tic tac toe built in Python.
+"""
+
 def print_game_board(game_board):
+    """
+    Formats and prints the game board to console.
+    """
     print("    1   2   3  ")
     for i in range(len(game_board)):
         print(f"{i + 1} ", end="")
@@ -8,6 +15,9 @@ def print_game_board(game_board):
     print()
 
 def take_turn():
+    """
+    Prompts the player to choose a place to play.
+    """
     good_input = False
     while not good_input:
         try:
@@ -25,6 +35,9 @@ def take_turn():
     return (row - 1, column - 1)
 
 def determine_winner(game_board):
+    """
+    Determines if there is a winner to the game and returns who won.
+    """
     for i in range(len(game_board)):
         # Horizontal Rows
         if all(j == game_board[i][0] and j != " " for j in game_board[i]):
@@ -41,6 +54,9 @@ def determine_winner(game_board):
         
 
 def game():
+    """
+    The main game loop.
+    """
     game_board = [[" ", " ", " "],[" ", " ", " "],[" ", " ", " "]]
     turn_count = 1
     game_over = False
